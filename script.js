@@ -17,7 +17,7 @@ const getSum = () => {
       totalCell.style.fontWeight = 'bold';
       totalCell.textContent = `Total: Rs ${total}`;
 	getSumBtn.disabled = true;
-    };
+    
   
 };
 
