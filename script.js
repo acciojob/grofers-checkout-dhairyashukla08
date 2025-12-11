@@ -33,6 +33,11 @@ function calculateTotalPrice() {
 
     totalRow.appendChild(totalCell);
     table.appendChild(totalRow);
+
+	const ansElement = document.getElementById('ans');
+	if (ansElement) {
+		ansElement.textContent = `${totalPrice}`;
+    }
 }
 
 const getSumBtn = document.getElementById('getSumBtn');
